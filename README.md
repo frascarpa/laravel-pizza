@@ -1,5 +1,7 @@
-config a db connection in 
-> config/database.php
+make a .env  based on the example and setup db config
+
+run
+> php artisan key:generate
 
 for seeding the db
 > php artisan db:seed
