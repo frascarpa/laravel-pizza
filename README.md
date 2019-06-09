@@ -1,3 +1,9 @@
+config a db connection in 
+> config/database.php
+
+for seeding the db
+> php artisan db:seed
+
 
 serve the project with  (dev)
 > php artisan serve
