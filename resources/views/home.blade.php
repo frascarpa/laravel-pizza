@@ -15,10 +15,14 @@
                     @endif
 
                     You are logged in!
+                    here is your data
+                    {{ Auth::user() }}
                 </div>
             </div>
         </div>
     </div>
+    <div class="row justify-content-center">
+    <users :users="{{ User::all() }}"></users>
+    </div>
 </div>
-    <example-component></example-component>
 @endsection
